@@ -32,7 +32,7 @@ body._lock {
         width: 54px;
         height: 30px;
         top: 45px;
-        z-index: 11;
+        z-index: 33;
         &:after {
             content: '';
             width: 100%;
@@ -88,7 +88,7 @@ body._lock {
     max-width: 354px;
     width: 100%;
     margin-left: 130px;
-    z-index: 11;
+    z-index: 33;
     @media (max-width: 1440px) {
         margin: 0;
     }
@@ -123,6 +123,7 @@ body._lock {
     flex-direction: column;
     align-items: flex-start;
     padding: 150px 0 0 60px;
+    z-index: 22;
 }
 .list {
     display: flex;
@@ -622,12 +623,13 @@ body._lock {
     }
 }
 .box-el {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     @media (max-width: 1200px) {
         max-width: 270px;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         flex: 1 1 50%;
         margin-right: 15px;
     } 
