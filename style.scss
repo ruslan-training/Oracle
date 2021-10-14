@@ -1,7 +1,6 @@
 @import "source/SCSS/nullstyle.scss";
 @import "source/SCSS/mixin.scss";
 @import "source/SCSS/colors.scss";
-@import url('http://fonts.cdnfonts.com/css/winter-insight');
 
 body {
     font-family: "Roboto, san-serif";
@@ -22,7 +21,7 @@ body._lock {
 // TOPMENU
 .head-wrapper {
     width: 100%;
-    background: url(/img/bg.png) top / cover no-repeat;
+    background: url(img/bg.png) top / cover no-repeat;
 }
 .burger {
     display: none;
